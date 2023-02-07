@@ -1,2 +1,0 @@
-# ruleta
-Ruleta del conocimiento
