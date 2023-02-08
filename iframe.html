@@ -5,7 +5,7 @@
     <style>
         .embed-container {
             position: relative;
-            padding-bottom: 56.25%;
+            padding-bottom: 47.25%;
             height: 0;
             overflow: hidden;
         }
@@ -16,6 +16,57 @@
             left: 0;
             width: 100%;
             height: 100%;
+        }
+
+        /* Smartphones (portrait & landscape) 
+        #Dispositivo = Mayoría de teléfonos móviles (vertical y horizontal) 
+        #Resolución = B/w 320px to 479px */
+        @media (min-device-width : 320px) and (max-device-width : 480px) {
+            .embed-container{
+                height: 424px;
+            }
+            
+        }
+
+        /* #Dispositivo = Tablets de baja resolución y teléfonos Móviles (horizontal) 
+#Resolución = B/w 481px to 767px */
+        @media (min-width: 481px) and (max-width: 767px) {
+            .embed-container{
+                height: 424px;
+            }
+        }
+      
+
+        /* Smartphones (portrait) */
+        @media  (max-width : 320px) {
+            .embed-container{
+                height: 424px;
+            }
+        }
+
+        /* iPads (portrait & landscape) */
+        @media  (min-device-width : 768px) and (max-device-width : 1024px) {
+            .embed-container{
+                height: 424px;
+            }
+        }
+
+        /* iPads (landscape) 
+#Dispositivo = Tablets, Ipads (horizontal) 
+#Resolución = B/w 768px to 1024px */
+        @media  (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : landscape) {
+            .embed-container{
+                height: 424px;
+            }
+        }
+
+        /* iPads (portrait) 
+#Dispositivo = Tablets, Ipads (vertical) 
+#Resolucion = B/w 768px to 1024px */
+        @media  (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : portrait) {
+            .embed-container{
+                height: 424px;
+            }
         }
     </style>
 </head>
