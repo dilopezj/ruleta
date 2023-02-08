@@ -22,12 +22,13 @@
         body {
             background-image: url("src/img/bg.jpg");
             background-repeat: no-repeat;
-            background-attachment: fixed;
+            background-attachment: absolute;
             background-position: center;
             background-size: 853px 480px;
             background-size: 100% 100%;
             margin: 0 auto;
             font-family: 'Cerebri Sans Book' , sans-serif;
+            max-height: 950px !important;
         }
 
         .header {
