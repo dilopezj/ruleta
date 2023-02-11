@@ -49,7 +49,7 @@
         #contenedor {
             display: table-cell;
             width: 100%;
-            vertical-align: middle;
+           /* vertical-align: middle;*/
             text-align: center;
         }
 
@@ -105,15 +105,17 @@
         <div id="contenedor">
             <div id="contenido">
                 <div class="row">
-                    <div class="col-sm-6">
+                    <div class="col-lg-6">
+                        <br><br><br>
                         <h3>Aqui el texto del manual del juego</h3>
                         <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
                             labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
                             laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
                             voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
                             cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
+                            <br><br><br>
                     </div>
-                    <div class="col-sm-6">
+                    <div class="col-lg-6">
                         <form id="form1" runat="server">
                             <div class="container-fluid">
                                 <div class="row">
