@@ -1,4 +1,74 @@
+html,
 body {
-    background-image: url("img/bg.png")
-        background-repeat: no-repeat;
+    height: 100%;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin: 0 auto;
+    font-family: 'Cerebri Sans Book', sans-serif;
+}
+
+.header {
+    background-color: #dad6c4;
+    padding: 7px;
+}
+
+#wrapper {
+    height: 100%;
+    width: 100%;
+    display: table;
+    overflow: hidden;
+}
+
+#contenedor {
+    display: table-cell;
+    width: 100%;
+   /* vertical-align: middle;*/
+    text-align: center;
+}
+
+#contenido {
+    /* background-image: url("src/img/bg.jpg");*/
+    background-repeat: no-repeat;
+    background-attachment: absolute;
+    background-position: center;
+    background-size: 853px 480px;
+    background-size: 100% 100%;
+    display: inline-block;
+    margin: 0 auto;
+}
+
+#canvasContainer {
+    background-image: url(../src/img/rueda_logo.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 700px;
+    height: 690px;
+    cursor: pointer;
+}
+
+.footer {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 28px;
+
+}
+
+h3 p {
+    font-size: 23px !important;
+}
+
+ol.a {
+    list-style-type: lower-alpha !important;
+}
+
+ol li {
+    text-align: left;
+    padding: 17px;
+    font-size: 20px;
 }

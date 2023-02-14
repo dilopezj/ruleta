@@ -17,103 +17,25 @@
     <link rel="stylesheet" href="css/bootstrap.min.css" />
     <!--Font Awesome-->
     <link rel="stylesheet" href="css/font-awesome.min.css" />
-    <!--Imagen de Fondo-->
-    <style type="text/css">
-        html,
-        body {
-            height: 100%;
-        }
+    <link rel="stylesheet" href="css/style.css" />
 
-        * {
-            margin: 0;
-            padding: 0;
-        }
-
-        body {
-            margin: 0 auto;
-            font-family: 'Cerebri Sans Book', sans-serif;
-        }
-
-        .header {
-            background-color: #dad6c4;
-            padding: 7px;
-        }
-
-        #wrapper {
-            height: 100%;
-            width: 100%;
-            display: table;
-            overflow: hidden;
-        }
-
-        #contenedor {
-            display: table-cell;
-            width: 100%;
-           /* vertical-align: middle;*/
-            text-align: center;
-        }
-
-        #contenido {
-            /* background-image: url("src/img/bg.jpg");*/
-            background-repeat: no-repeat;
-            background-attachment: absolute;
-            background-position: center;
-            background-size: 853px 480px;
-            background-size: 100% 100%;
-            display: inline-block;
-            margin: 0 auto;
-        }
-
-        #canvasContainer {
-            background-image: url(src/img/rueda_logo.png);
-            background-repeat: no-repeat;
-            background-position: center;
-            width: 700px;
-            height: 690px;
-            cursor: pointer;
-        }
-
-        .footer {
-            text-align: center;
-            margin-top: 20px;
-            font-size: 28px;
-
-        }
-
-        h3 p {
-            font-size: 23px !important;
-        }
-
-        ol.a {
-            list-style-type: lower-alpha !important;
-        }
-
-        ol li {
-            text-align: left;
-            padding: 17px;
-            font-size: 20px;
-        }
-    </style>
 </head>
-
 <body>
     <div class="header">
-        <h1 STYLE="font-size: 40px;color:#000000; text-align: center;">LA RULETA DE LA <strong>ACCIÓN SABIA</strong>
-        </h1>
+        <h1 STYLE="font-size: 40px;color:#000000; text-align: center;">LA RULETA DE LA <strong>ACCIÓN SABIA</strong></h1>
     </div>
     <div id="wrapper">
         <div id="contenedor">
             <div id="contenido">
                 <div class="row">
-                    <div class="col-lg-6">
+                    <div class="col-lg-6" style="text-align: center;">
                         <br><br><br>
-                        <h3>Aqui el texto del manual del juego</h3>
-                        <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-                            labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
-                            laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in
-                            voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
-                            cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
-                            <br><br><br>
+                        <br><br><br>
+                        <h2>La ruleta para que te diviertas en el camino de ser más <strong>sabia</strong> en el amor</h2>
+                        <br><br><br>
+                        <br><br><br>
+                        <p style="font-size: 24px;">"¡Hazla girar y escoge la mejor forma de actuar!"</p>
+                        <br><br><br>
                     </div>
                     <div class="col-lg-6">
                         <form id="form1" runat="server">
@@ -148,7 +70,7 @@
     <script>
         function seleccion_1() {
             swal({
-                title: '<i><font color="#000000"><h2><strong>¿Qué hacer cuando no aparece? </strong></h2></font></i> ',
+                title: '<i><font color="#000000"><h2><strong>1. ¿Qué hacer cuando no aparece? </strong></h2></font></i> ',
                 imageUrl: '',
                 imageWidth: 221,
                 imageHeight: 137,
@@ -173,7 +95,7 @@
         }
         function seleccion_2() {
             swal({
-                title: '<i><font color="#000000"><h2><strong>¿Qué hacer si algo me molesta?</font></strong></h2></i> ',
+                title: '<i><font color="#000000"><h2><strong>2. ¿Qué hacer si algo me molesta?</font></strong></h2></i> ',
                 imageUrl: '',
                 imageWidth: 221,
                 imageHeight: 137,
@@ -198,7 +120,7 @@
         }
         function seleccion_3() {
             swal({
-                title: '<i><font color="#000000"><h2><strong>¿Qué hacer si siento que no quiere estar conmigo? </strong></h2></font></i> ',
+                title: '<i><font color="#000000"><h2><strong>3. ¿Qué hacer si siento que no quiere estar conmigo? </strong></h2></font></i> ',
                 imageUrl: '',
                 imageWidth: 221,
                 imageHeight: 137,
@@ -223,7 +145,7 @@
         }
         function seleccion_4() {
             swal({
-                title: '<i><font color="#000000"><h2><strong>¿Qué hacer cuando sus deseos no son los mismos míos? </strong></h2></font></i> ',
+                title: '<i><font color="#000000"><h2><strong>4. ¿Qué hacer cuando sus deseos no son los mismos míos? </strong></h2></font></i> ',
                 imageUrl: '',
                 imageWidth: 221,
                 imageHeight: 137,
@@ -248,7 +170,7 @@
         }
         function seleccion_5() {
             swal({
-                title: '<i><font color="#000000"><h2><strong>¿Qué hacer si siento monotonía?</strong></h2></font></i> ',
+                title: '<i><font color="#000000"><h2><strong>5. ¿Qué hacer si siento monotonía?</strong></h2></font></i> ',
                 imageUrl: '',
                 imageWidth: 221,
                 imageHeight: 137,
@@ -273,7 +195,7 @@
         }
         function seleccion_6() {
             swal({
-                title: '<i><font color="#000000"><h2><strong>¿Qué hacer si siento celos? </strong></h2></font></i> ',
+                title: '<i><font color="#000000"><h2><strong>6. ¿Qué hacer si siento celos? </strong></h2></font></i> ',
                 imageUrl: '',
                 imageWidth: 221,
                 imageHeight: 137,
@@ -298,7 +220,7 @@
         }
         function seleccion_7() {
             swal({
-                title: '<i><font color="#000000"><h2><strong>¿Qué hacer si no me da mi espacio?</strong></h2></font></i> ',
+                title: '<i><font color="#000000"><h2><strong>7. ¿Qué hacer si no me da mi espacio?</strong></h2></font></i> ',
                 imageUrl: '',
                 imageWidth: 221,
                 imageHeight: 137,
@@ -323,7 +245,7 @@
         }
         function seleccion_8() {
             swal({
-                title: '<i><font color="#000000"><h2><strong>¿Qué hacer si hay desacuerdos? </strong></h2></font></i> ',
+                title: '<i><font color="#000000"><h2><strong>8. ¿Qué hacer si hay desacuerdos? </strong></h2></font></i> ',
                 imageUrl: '',
                 imageWidth: 221,
                 imageHeight: 137,
@@ -350,7 +272,7 @@
         <!--Ruletasegmentos-->
         var miRuleta = new Winwheel({
             'numSegments': 8, // Número de segmentos
-            'outerRadius': 270, // Radio externo
+            'outerRadius': 298, // Radio externo
             'innerRadius': 80,
             'segments': [ // Datos de los segmentos
                 { 'fillStyle': '#dad6c4', 'text': '1', 'number': '1' },
@@ -364,7 +286,7 @@
             ],
             'animation': {
                 'type': 'spinToStop', // Giro y alto
-                'duration': 5, // Duración de giro
+                'duration': 3, // Duración de giro
                 'callbackFinished': 'Mensaje()', // Función para mostrar mensaje
                 'callbackAfter': 'dibujarIndicador()' // Funciona de pintar indicador
             }
@@ -411,7 +333,7 @@
         function dibujarIndicador() {
             var ctx = miRuleta.ctx;
             distnaciaX = 150;
-            distnaciaY = 50;
+            distnaciaY = 40;
             ctx = miRuleta.ctx;
             ctx.strokeStyle = '#FF6528';
             ctx.fillStyle = '#FF6528';
