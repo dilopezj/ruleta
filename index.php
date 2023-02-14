@@ -286,7 +286,7 @@
             ],
             'animation': {
                 'type': 'spinToStop', // Giro y alto
-                'duration': 3, // Duración de giro
+                'duration': 5, // Duración de giro
                 'callbackFinished': 'Mensaje()', // Función para mostrar mensaje
                 'callbackAfter': 'dibujarIndicador()' // Funciona de pintar indicador
             }
