@@ -83,6 +83,12 @@ body {
 
 }
 
+.footer img {
+    padding: 46px 0;
+    text-align: center;
+    vertical-align: middle !important;
+}
+
 h3 p {
     font-size: 23px !important;
 }
@@ -117,6 +123,7 @@ ol li {
         margin: 0 auto !important;
         width: 100% !important;
         text-align: center !important;
+        padding: 12px;
     }
 
     .text_header {
@@ -151,6 +158,7 @@ ol li {
         margin: 0 auto !important;
         width: 100% !important;
         text-align: center !important;
+        padding: 12px;
     }
 
     .text_header {
@@ -184,6 +192,7 @@ ol li {
         margin: 0 auto !important;
         width: 100% !important;
         text-align: center !important;
+        padding: 12px;
     }
 
     .text_header {
@@ -216,6 +225,7 @@ ol li {
         margin: 0 auto !important;
         width: 100% !important;
         text-align: center !important;
+        padding: 12px;
     }
 
     .text_header {
@@ -250,6 +260,7 @@ ol li {
         margin: 0 auto !important;
         width: 100% !important;
         text-align: center !important;
+        padding: 12px;
     }
 
     .text_header {
@@ -284,6 +295,7 @@ ol li {
         margin: 0 auto !important;
         width: 100% !important;
         text-align: center !important;
+        padding: 12px;
     }
 
     .text_header {
