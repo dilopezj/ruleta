@@ -20,51 +20,52 @@
     <link rel="stylesheet" href="css/style.css" />
 
 </head>
+
 <body>
     <div class="header">
-        <h1 STYLE="font-size: 40px;color:#000000; text-align: center;">LA RULETA DE LA <strong>ACCIÓN SABIA</strong></h1>
+        <div class="row">
+            <div class="col-lg-6">
+                <div class="title_header" >
+                    <h1>LA RULETA DE LA <strong>ACCIÓN SABIA</strong> </h1>
+                </div>
+            </div>
+            <div class="col-lg-6" >
+                <div class="text_header">
+                    <p style="font-size: 20px;"> La ruleta para que te diviertas en el camino de ser más
+                        <br><strong>sabia</strong> en el amor </p>
+                    <h2>"¡Hazla girar y escoge la mejor forma de actuar!"</h2>
+                </div>
+            </div>
+        </div>
     </div>
     <div id="wrapper">
         <div id="contenedor">
             <div id="contenido">
-                <div class="row">
-                    <div class="col-lg-6" style="text-align: center;">
-                        <br><br><br>
-                        <br><br><br>
-                        <h2>La ruleta para que te diviertas en el camino de ser más <strong>sabia</strong> en el amor</h2>
-                        <br><br><br>
-                        <br><br><br>
-                        <p style="font-size: 24px;">"¡Hazla girar y escoge la mejor forma de actuar!"</p>
-                        <br><br><br>
-                    </div>
-                    <div class="col-lg-6">
-                        <form id="form1" runat="server">
-                            <div class="container-fluid">
-                                <div class="row">
-                                    <div class="col-sm-12" class="align-baseline">
-                                        <div style="margin: 0 auto;display: inline-block;">
-                                            <div id="canvasContainer">
-                                                <canvas id="canvas" width="700" height="690">
-                                                    Canvas not supported, please user another browser.
-                                                </canvas>
-                                            </div>
-                                            <!--Boton Girar-->
-                                            <div style="text-align: center;">
-                                                <input type="button" onclick="miRuleta.startAnimation();"
-                                                    class="btn btn-dark btn-lg" value="Girar Ruleta" />
-                                            </div>
-                                        </div>
+                <form id="form1" runat="server">
+                    <div class="container-fluid">
+                        <div class="row">
+                            <div class="col-sm-12" class="align-baseline">
+                                <div style="margin: 0 auto;display: inline-block;">
+                                    <div id="canvasContainer">
+                                        <canvas id="canvas" width="700" height="690">
+                                            Canvas not supported, please user another browser.
+                                        </canvas>
+                                    </div>
+                                    <!--Boton Girar-->
+                                    <div style="text-align: center;">
+                                        <input type="button" onclick="miRuleta.startAnimation();"
+                                            class="btn btn-dark btn-lg" value="Girar Ruleta" />
                                     </div>
                                 </div>
                             </div>
-                        </form>
+                        </div>
                     </div>
-                </div>
-                <div class="footer">
-                    <img src="src/img/Logo_M.png" alt="María José ÁLvarez B" style="width: 242px;" />
-                </div>
+                </form>                
             </div>
         </div>
+    </div>
+    <div class="footer">
+        <img src="src/img/Logo_M_B.png" alt="María José ÁLvarez B" style="width: 242px;" />
     </div>
 
     <script>

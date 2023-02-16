@@ -18,8 +18,30 @@ body {
     padding: 7px;
 }
 
+.title_header {
+    vertical-align: middle;
+    border-right: 2px #000000 solid;
+    padding: 5px;
+    margin: 18px auto;
+}
+
+.title_header h1 {
+    font-size: 45px;
+    color: #000000;
+    width: 52%;
+    text-align: right;
+    margin: 0 auto;
+}
+
+.text_header {
+    vertical-align: middle;
+    padding: 5px 74px;
+    margin: 18px auto;
+    width: 97%;
+}
+
 #wrapper {
-    height: 100%;
+    height: 50%;
     width: 100%;
     display: table;
     overflow: hidden;
@@ -28,7 +50,7 @@ body {
 #contenedor {
     display: table-cell;
     width: 100%;
-   /* vertical-align: middle;*/
+    vertical-align: middle;
     text-align: center;
 }
 
@@ -56,6 +78,8 @@ body {
     text-align: center;
     margin-top: 20px;
     font-size: 28px;
+    background-color: black;
+    height: 10% !important;
 
 }
 
@@ -71,4 +95,206 @@ ol li {
     text-align: left;
     padding: 17px;
     font-size: 20px;
+}
+
+
+/* Smartphones (portrait & landscape) 
+        #Dispositivo = Mayoría de teléfonos móviles (vertical y horizontal) 
+        #Resolución = B/w 320px to 479px */
+@media (min-device-width : 320px) and (max-device-width : 480px) {
+    .title_header {
+        vertical-align: middle;
+        border-right: none !important;
+        padding: 5px;
+        margin: 18px auto;
+        text-align: center !important;
+        border-bottom: #000000 solid 2px;
+    }
+
+    .title_header h1 {
+        font-size: 53px !important;
+        color: #000000 !important;
+        margin: 0 auto !important;
+        width: 100% !important;
+        text-align: center !important;
+    }
+
+    .text_header {
+        vertical-align: middle;
+        padding: 5px 74px;
+        margin: 18px auto;
+        width: 97%;
+        text-align: center !important;
+    }
+
+    .text_header p {
+        font-size: 26px !important;
+    }
+
+}
+
+/* #Dispositivo = Tablets de baja resolución y teléfonos Móviles (horizontal) 
+#Resolución = B/w 481px to 767px */
+@media (min-width: 481px) and (max-width: 767px) {
+    .title_header {
+        vertical-align: middle;
+        border-right: none !important;
+        padding: 5px;
+        margin: 18px auto;
+        text-align: center !important;
+        border-bottom: #000000 solid 2px;
+    }
+
+    .title_header h1 {
+        font-size: 53px !important;
+        color: #000000 !important;
+        margin: 0 auto !important;
+        width: 100% !important;
+        text-align: center !important;
+    }
+
+    .text_header {
+        vertical-align: middle;
+        padding: 5px 74px;
+        margin: 18px auto;
+        width: 97%;
+        text-align: center !important;
+    }
+
+    .text_header p {
+        font-size: 26px !important;
+    }
+}
+
+
+/* Smartphones (portrait) */
+@media (max-width : 320px) {
+    .title_header {
+        vertical-align: middle;
+        border-right: none !important;
+        padding: 5px;
+        margin: 18px auto;
+        text-align: center !important;
+        border-bottom: #000000 solid 2px;
+    }
+
+    .title_header h1 {
+        font-size: 53px !important;
+        color: #000000 !important;
+        margin: 0 auto !important;
+        width: 100% !important;
+        text-align: center !important;
+    }
+
+    .text_header {
+        vertical-align: middle;
+        padding: 5px 74px;
+        margin: 18px auto;
+        width: 97%;
+        text-align: center !important;
+    }
+
+    .text_header p {
+        font-size: 26px !important;
+    }
+}
+
+/* iPads (portrait & landscape) */
+@media (min-device-width : 768px) and (max-device-width : 1024px) {
+    .title_header {
+        vertical-align: middle;
+        border-right: none !important;
+        padding: 5px;
+        margin: 18px auto;
+        text-align: center !important;
+        border-bottom: #000000 solid 2px;
+    }
+
+    .title_header h1 {
+        font-size: 53px !important;
+        color: #000000 !important;
+        margin: 0 auto !important;
+        width: 100% !important;
+        text-align: center !important;
+    }
+
+    .text_header {
+        vertical-align: middle;
+        padding: 5px 74px;
+        margin: 18px auto;
+        width: 97%;
+        text-align: center !important;
+    }
+
+    .text_header p {
+        font-size: 26px !important;
+    }
+}
+
+/* iPads (landscape) 
+#Dispositivo = Tablets, Ipads (horizontal) 
+#Resolución = B/w 768px to 1024px */
+@media (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : landscape) {
+    .title_header {
+        vertical-align: middle;
+        border-right: none !important;
+        padding: 5px;
+        margin: 18px auto;
+        text-align: center !important;
+        border-bottom: #000000 solid 2px;
+    }
+
+    .title_header h1 {
+        font-size: 53px !important;
+        color: #000000 !important;
+        margin: 0 auto !important;
+        width: 100% !important;
+        text-align: center !important;
+    }
+
+    .text_header {
+        vertical-align: middle;
+        padding: 5px 74px;
+        margin: 18px auto;
+        width: 97%;
+        text-align: center !important;
+    }
+
+    .text_header p {
+        font-size: 26px !important;
+    }
+}
+
+/* iPads (portrait) 
+#Dispositivo = Tablets, Ipads (vertical) 
+#Resolucion = B/w 768px to 1024px */
+@media (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : portrait) {
+    .title_header {
+        vertical-align: middle;
+        border-right: none !important;
+        padding: 5px;
+        margin: 18px auto;
+        text-align: center !important;
+        border-bottom: #000000 solid 2px;
+    }
+
+    .title_header h1 {
+        font-size: 53px !important;
+        color: #000000 !important;
+        margin: 0 auto !important;
+        width: 100% !important;
+        text-align: center !important;
+    }
+
+    .text_header {
+        vertical-align: middle;
+        padding: 5px 74px;
+        margin: 18px auto;
+        width: 97%;
+        text-align: center !important;
+    }
+
+    .text_header p {
+        font-size: 26px !important;
+    }
 }
