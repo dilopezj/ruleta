@@ -1,3 +1,9 @@
+@font-face{
+    font-family:'Cerebri-Sans-Book';
+    src:url('../fonts/Cerebri-Sans-Book.otf') !important;
+    src:url('../fonts/Cerebri-Sans-Book.ttf') !important;
+}
+
 html,
 body {
     height: 100%;
@@ -10,7 +16,6 @@ body {
 
 body {
     margin: 0 auto;
-    font-family: 'Cerebri Sans Book', sans-serif;
 }
 
 .header {
